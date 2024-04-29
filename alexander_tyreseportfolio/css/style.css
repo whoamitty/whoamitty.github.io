@@ -1,64 +1,77 @@
 
-/*Reset CSS*/
-*{
-    /* margin: 0px;
-    padding: 0px; */
-    font-family: Avenir, sans-serif;
-}
+    /*Reset CSS*/
+    *{
+        /* margin: 0px;
+        padding: 0px; */
+        font-family: Avenir, sans-serif;
 
 
-body{
-    background-color:  rgb(255, 255, 255);
-}
-
-nav{
-    width: 100%;
-    margin: 0px auto 40px auto;
-    background-color:rgb(87, 83, 32);
-    position: sticky;
-    top: 0px;
-}
-
-nav ul{
-    list-style-type: none;
-}
-
-nav li{
-    float: left;
-    width: 25%;/*100% divisé par le nombre d'éléments de menu*/
-    text-align: center;/*Centre le texte dans les éléments de menu*/
-}
-
-/*Evite que le menu n'ait une hauteur nulle*/
-nav ul::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-nav a{
-    display: block; /*Toute la surface sera cliquable*/
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    border-bottom: 2px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
-    padding: 10px 0px;/*Agrandit le menu et espace la bordure du texte*/
-}
+    }
 
 
+    body{
+        background-color:  rgb(160, 147, 147);
+    }
 
-nav   a:hover{
-    color: orange;
-    border-bottom: 2px solid rgb(245, 185, 56);
-}
+    nav{
+        width: 100%;
+        margin: 0px auto 40px auto;
+        background-color:rgb(87, 83, 32);
+        position: sticky;
+        top: 0px;
+    }
 
-.active{
+    nav ul{
+        list-style-type: none;
+    }
 
-    color: rgb(253, 165, 0);
-    border-bottom: 2px solid rgb(245, 185, 56);
-  }
+    nav li{
+        float: left;
+        width: 25%;/*100% divisé par le nombre d'éléments de menu*/
+        text-align: center;/*Centre le texte dans les éléments de menu*/
+    }
+
+    /*Evite que le menu n'ait une hauteur nulle*/
+    nav ul::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    nav a{
+        display: block; /*Toute la surface sera cliquable*/
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        border-bottom: 2px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
+        padding: 10px 0px;/*Agrandit le menu et espace la bordure du texte*/
+    }
 
 
-.conteneur{
-  margin: 0px 20px;
-  height: 1500px;
-}
+
+    nav   a:hover{
+        color: orange;
+        border-bottom: 2px solid rgb(245, 185, 56);
+    }
+
+    .active{
+
+        color: rgb(253, 165, 0);
+        border-bottom: 2px solid rgb(245, 185, 56);
+    }
+
+
+    /* .conteneur{
+    margin: 0px 20px;
+    height: 1500px;
+    } */
+
+
+    .conteneur {
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        color: black;
+        max-width: 1000px;
+        margin: 100px auto auto 25%;
+        height: 80%;
+    }
