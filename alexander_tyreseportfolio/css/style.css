@@ -10,18 +10,26 @@
 
 
     body{
-        background-color:  rgb(160, 147, 147);
+        background-color:  rgb(78, 68, 68);
         
     }
 
 
+
+    ul{
+        font-size:150%;
+    }
+
     nav{
         width: 100%;
         margin: 0px auto 40px auto;
-        background-color:rgb(87, 83, 32);
+        background-color:rgb(126, 120, 46);
         position: sticky;
         top: 0px;
+        
+
     }
+
 
     nav ul{
         list-style-type: none;
@@ -31,15 +39,19 @@
         float: left;
         width: 20%;/*100% divisé par le nombre d'éléments de menu*/
         text-align: center;/*Centre le texte dans les éléments de menu*/
-    }
 
+    }
+    nav{
+        border-radius: 5px
+    }
 
 
     a {
-         color:rgb(97, 80, 34);    
+         color:rgb(207, 174, 83);    
          font-weight: bold;
          
     }
+
 
     
 
@@ -61,8 +73,8 @@
 
 
     nav   a:hover{
-        color: orange;
-        border-bottom: 2px solid rgb(245, 185, 56);
+        color: rgb(255, 184, 51);
+        border-bottom: 2px solid rgb(253, 202, 92);
     }
 
     .active{
@@ -78,12 +90,23 @@
     } */
 
 
+
+
     .conteneur {
         /* display: flex; */
         justify-content: center;
         align-items: center;
-        color: black;
+        color: blanchedalmond;
+
+
         max-width: 1000px;
         margin: 100px auto auto 25%;
         height: 80%;
     }
+
+    .conteneur li{
+        margin-bottom: 2px;
+    }
+
+
+ 
