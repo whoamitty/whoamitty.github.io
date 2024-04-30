@@ -16,7 +16,7 @@
 
 
 
-    ul{
+    ul, pre{
         font-size:150%;
     }
 
@@ -73,13 +73,13 @@
 
 
     nav   a:hover{
-        color: rgb(255, 184, 51);
+        color: rgb(236, 167, 39);
         border-bottom: 2px solid rgb(253, 202, 92);
     }
 
     .active{
 
-        color: rgb(253, 165, 0);
+        color: rgb(247, 187, 75);
         border-bottom: 2px solid rgb(245, 185, 56);
     }
 
@@ -104,9 +104,12 @@
         height: 80%;
     }
 
+    
+
     .conteneur li{
         margin-bottom: 2px;
     }
 
 
  
+    /* :not(h1){ */
