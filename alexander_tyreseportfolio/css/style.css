@@ -16,7 +16,7 @@
 
 
 
-    ul, pre{
+    p, ul, pre{
         font-size:150%;
     }
 
@@ -37,7 +37,7 @@
 
     nav li{
         float: left;
-        width: 12.5%;/*100% divisé par le nombre d'éléments de menu*/
+        width: 11%;/*100% divisé par le nombre d'éléments de menu*/
         text-align: center;/*Centre le texte dans les éléments de menu*/
 
     }
@@ -74,7 +74,6 @@
 
     nav   a:hover{
         color: rgb(236, 167, 39);
-        border-bottom: 2px solid rgb(253, 202, 92);
     }
 
     .active{
