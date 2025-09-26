@@ -1,0 +1,73 @@
+
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .site-title {
+    font-size: 2rem;
+  }
+  
+  .message-card {
+    padding: 2rem;
+    margin: 0 1rem;
+  }
+  
+  .language-nav {
+    gap: 1rem;
+  }
+  
+  .language-nav a {
+    padding: 10px 16px;
+    font-size: 0.9rem;
+  }
+  
+  .language-nav a:has(img) {
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+  }
+  
+  .language-nav img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .language-nav {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  
+  .language-nav a {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .language-nav a:has(img) {
+    width: 100%;
+    height: auto;
+    padding: 12px 20px;
+  }
+}
+
+/* Animation d'entrée */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.message-card {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.site-title {
+  animation: fadeInUp 0.8s ease-out 0.2s both;
+}

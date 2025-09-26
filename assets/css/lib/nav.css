@@ -1,0 +1,83 @@
+.language-nav a {
+    /* Mise en page */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* Apparence couleur, transparence */
+    text-decoration: none;
+    color: var(--text-color-dark);
+    font-weight: 600;
+    border-radius: 50px;
+    transition: var(--transition);
+    
+    
+    /* background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
+    background: rgba(255, 255, 255, 0.9);
+    outline: 5px solid  rgba(255, 255, 255, 0.8) ;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    /* outline-offset: -3px; */
+    
+    padding: 24px 40px;
+    min-height: 50px;
+
+}
+
+
+
+
+
+.language-nav a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: rgb(255, 242, 242);
+    border-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+/* Gestion des SVG */
+
+
+
+
+.language-nav img {
+    width: 3rem;
+    height: 3rem;
+    transition: var(--transition);
+
+    filter: brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(224deg) brightness(88%) contrast(92%);
+}
+
+.language-nav a:hover img {
+  filter: brightness(0) saturate(100%) invert(100%);
+  transform: scale(1.1);
+}
+
+
+
+/* Pour les liens avec seulement des images */
+.language-nav a:has(img) {
+  /* padding: 12px;
+  width: 50px;
+  height: 50px; */
+  
+  padding: 2em;
+  width: 5em;
+  height: 5em;
+}
+
+
+
+
+
+/* Navigation */
+.language-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+

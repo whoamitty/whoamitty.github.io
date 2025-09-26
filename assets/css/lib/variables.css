@@ -1,0 +1,18 @@
+/* Variables  */
+:root {
+
+    /* COULEURS */
+    /* Backgrounds */
+    --primary-color: #0c1c67;
+    --secondary-color: #5a3283;    
+    --background-color: rgba(255, 255, 255, 0.1);
+    /* Textes */
+    --text-color: #333;
+    --text-color-dark: #5228db ;
+
+
+    /* Divers */
+    --border-radius: 50px;
+    --transition: all 0.3s ease;
+
+}
