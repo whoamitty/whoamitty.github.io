@@ -1,0 +1,14 @@
+/* boutons d'action + nav flottante */
+.action-bar{display:flex;gap:.6rem;flex-wrap:wrap;margin:1rem 0}
+.btn{appearance:none;border:1px solid rgba(255,255,255,.2);background:#0f0c63;color:var(--white);padding:.5rem .8rem;border-radius:8px;cursor:pointer;font-weight:600;text-decoration:none}
+.btn:hover{filter:brightness(1.08)}
+.btn-share{background:var(--accent)}
+.btn-copy{background:#1a73e8}
+.btn-top,.btn-bottom{position:fixed;right:1rem;z-index:10;border-radius:999px;padding:.6rem .8rem}
+.btn-top{bottom:4.25rem}
+.btn-bottom{bottom:1rem}
+
+/* feedback copie */
+.copy-success{display:none;color:var(--success);font-weight:700;margin:.4rem 0}
+.copy-success.show{display:block}
+

@@ -1,0 +1,10 @@
+:root{
+  --primary:#5ea3fe;          /* liens non consultés */
+  --visited:#ffd500;          /* liens consultés */
+  --bg:#0B084A;               /* fond body */
+  --header:#050325;           /* fond header/footer */
+  --md-text:#e9e9fb;          /* texte markdown */
+  --accent:#ff5252;           /* bouton partager */
+  --success:#4caf50;          /* feedback copie */
+  --white:#ffffff;
+}

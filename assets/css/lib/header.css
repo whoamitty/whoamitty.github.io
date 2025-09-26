@@ -1,0 +1,8 @@
+
+/* header */
+header{background:var(--header);color:var(--white);padding:1.25rem 0}
+.site-header{text-align:center}
+.site-title{font-weight:700;font-size:1.6rem}
+.site-description{opacity:.9}
+
+.container{max-width:1100px;margin:0 auto;padding:0 1rem}

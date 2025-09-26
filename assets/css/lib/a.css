@@ -1,0 +1,5 @@
+/* liens */
+a{color:var(--primary)}
+a:hover:not(.language-nav a){text-decoration:underline}
+a:visited:not(.language-nav a, summary a, h2 a, footer a){color:var(--visited)}
+  

@@ -1,0 +1,9 @@
+
+/* footer */
+footer{background:var(--header);color:#cfd8dc;margin-top: auto;}
+
+
+footer .inner{display:flex;flex-direction:column;gap:.5rem;padding:1rem;}
+footer{text-align: center;}
+footer a{color:#a5d6ff}
+

@@ -1,0 +1,9 @@
+/* menu langues */
+/* here */
+.language-nav{display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;margin:1rem 0}
+/* .language-nav{display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0} */
+.language-nav a{color:var(--white);background:transparent;border:1px solid rgba(255,255,255,.2);padding:.35rem .6rem;border-radius:6px;text-decoration:none;}
+.language-nav a.active{border-color:var(--visited);box-shadow:0 0 0 2px rgba(255,213,0,.15)}
+.language-nav a:hover{color: var(--visited);}
+
+/* .language-nav a img{height:1.6rem;vertical-align:middle;margin-right:.3rem;} */

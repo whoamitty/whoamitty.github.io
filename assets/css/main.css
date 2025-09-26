@@ -1,0 +1,21 @@
+/* StopChatControl - Main CSS File */
+
+/* AXIOMES */
+@import "lib/variables.css";
+@import "lib/a.css";
+@import "lib/button.css";
+
+/* ZONES */
+@import "lib/header.css";
+@import "lib/footer.css";
+@import "lib/message-card.css";
+@import "lib/html-body.css";
+@import "lib/language-nav.css";
+
+
+/* RESPONSIVE */
+@media (min-width:768px){
+  .message-content {padding:1rem 1.5rem 1.5rem ;}
+  a{text-decoration: none}
+}
+

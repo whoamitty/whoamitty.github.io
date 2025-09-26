@@ -1,0 +1,15 @@
+html, body { height: 100%; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+@supports (height: 100dvh) {
+  body { min-height: 100dvh; }
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Roboto Mono",ui-monospace,Menlo,Consolas,monospace;background:var(--bg);color:var(--md-text);line-height:1.6}
