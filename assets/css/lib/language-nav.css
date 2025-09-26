@@ -6,4 +6,4 @@
 .language-nav a.active{border-color:var(--visited);box-shadow:0 0 0 2px rgba(255,213,0,.15)}
 .language-nav a:hover{color: var(--visited);}
 
-/* .language-nav a img{height:1.6rem;vertical-align:middle;margin-right:.3rem;} */
+.language-nav a img{height:1.6rem;vertical-align:middle;margin-right:.3rem;}
